@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "python3 .claude/hooks/block-push-to-main.py",
+        "timeout": 10
+      }
+    ]
+  }
+}
